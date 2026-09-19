@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# macOS / Windows generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python logs and temporary files
+*.log
+*.tmp
+
+# Temporary notebook files
+*.bak
+*.swp
+*.swo
+
+# Local environment/config files
+.env
+.env.*
+!.env.example
+
+# Experiment/cache directories
+cache/
+caches/
+
+# Model files (*.pth, *.pt, *.safetensors) are intentionally NOT ignored.
+# They may be required for evaluation/submission.
